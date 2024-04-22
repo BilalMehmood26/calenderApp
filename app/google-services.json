@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699124422984",
+    "project_id": "calendar-f0ab8",
+    "storage_bucket": "calendar-f0ab8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699124422984:android:41cc1c59bb520ab1b3fb7d",
+        "android_client_info": {
+          "package_name": "com.buzztech.calenderapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMZLYiiytmEtT7b8jEilrIf-Ln2eX024c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

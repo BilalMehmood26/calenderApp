@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/cityofAdamFragment">
+
+    <fragment
+        android:id="@+id/cityofAdamFragment"
+        android:name="com.buzztech.calenderapp.ui.main.cityofAdam.CityofAdamFragment"
+        android:label="fragment_cityof_adam"
+        tools:layout="@layout/fragment_cityof_adam" />
+    <fragment
+        android:id="@+id/treeOfLiveFragment"
+        android:name="com.buzztech.calenderapp.ui.main.treeoflife.TreeOfLiveFragment"
+        android:label="fragment_tree_of_live"
+        tools:layout="@layout/fragment_tree_of_live" />
+    <fragment
+        android:id="@+id/calenderFragment"
+        android:name="com.buzztech.calenderapp.ui.main.calendar.CalenderFragment"
+        android:label="fragment_calender"
+        tools:layout="@layout/fragment_calender" >
+        <action
+            android:id="@+id/action_calenderFragment_to_calenderDetailsFragment"
+            app:destination="@id/calenderDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.buzztech.calenderapp.ui.main.setting.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/alarmFragment"
+        android:name="com.buzztech.calenderapp.ui.main.alarm.AlarmFragment"
+        android:label="fragment_alarm"
+        tools:layout="@layout/fragment_alarm" >
+        <action
+            android:id="@+id/action_alarmFragment_to_holyDaysFragment"
+            app:destination="@id/holyDaysFragment" />
+        <action
+            android:id="@+id/action_alarmFragment_to_memorialDaysFragment"
+            app:destination="@id/memorialDaysFragment" />
+        <action
+            android:id="@+id/action_alarmFragment_to_alarmClassesFragment"
+            app:destination="@id/alarmClassesFragment" />
+        <action
+            android:id="@+id/action_alarmFragment_to_customAlarmFragment"
+            app:destination="@id/customAlarmFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/holyDaysFragment"
+        android:name="com.buzztech.calenderapp.ui.main.alarm.holydays.HolyDaysFragment"
+        android:label="fragment_holy_days"
+        tools:layout="@layout/fragment_holy_days" />
+    <fragment
+        android:id="@+id/memorialDaysFragment"
+        android:name="com.buzztech.calenderapp.ui.main.alarm.memorialDays.MemorialDaysFragment"
+        android:label="fragment_memorial_days"
+        tools:layout="@layout/fragment_memorial_days" />
+    <fragment
+        android:id="@+id/knowledgeFragment"
+        android:name="com.buzztech.calenderapp.ui.main.knowledge.KnowledgeFragment"
+        android:label="fragment_knowledge"
+        tools:layout="@layout/fragment_knowledge" />
+    <fragment
+        android:id="@+id/moonPartsFragment"
+        android:name="com.buzztech.calenderapp.ui.main.enochParts.moonParts.MoonPartsFragment"
+        android:label="fragment_moon_parts"
+        tools:layout="@layout/fragment_moon_parts" />
+    <fragment
+        android:id="@+id/solarPartsFragment"
+        android:name="com.buzztech.calenderapp.ui.main.enochParts.solarParts.SolarPartsFragment"
+        android:label="fragment_solar_parts"
+        tools:layout="@layout/fragment_solar_parts" />
+    <fragment
+        android:id="@+id/cycleOfYearFragment"
+        android:name="com.buzztech.calenderapp.ui.main.cycleoftheyear.CycleOfYearFragment"
+        android:label="fragment_cycle_of_year"
+        tools:layout="@layout/fragment_cycle_of_year" />
+    <fragment
+        android:id="@+id/calenderDetailsFragment"
+        android:name="com.buzztech.calenderapp.ui.main.calendar.details.CalenderDetailsFragment"
+        android:label="fragment_calender_details"
+        tools:layout="@layout/fragment_calender_details" >
+        <action
+            android:id="@+id/action_calenderDetailsFragment_to_setNotificationFragment"
+            app:destination="@id/setNotificationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lotofDavidFragment"
+        android:name="com.buzztech.calenderapp.ui.main.lotdavid.LotofDavidFragment"
+        android:label="fragment_lotof_david"
+        tools:layout="@layout/fragment_lotof_david" />
+    <fragment
+        android:id="@+id/setNotificationFragment"
+        android:name="com.buzztech.calenderapp.ui.main.calendar.setNotification.SetNotificationFragment"
+        android:label="fragment_set_notification"
+        tools:layout="@layout/fragment_set_notification" />
+    <fragment
+        android:id="@+id/alarmClassesFragment"
+        android:name="com.buzztech.calenderapp.ui.main.alarm.classes.AlarmClassesFragment"
+        android:label="fragment_alarm_classes"
+        tools:layout="@layout/fragment_alarm_classes" />
+    <fragment
+        android:id="@+id/customAlarmFragment"
+        android:name="com.buzztech.calenderapp.ui.main.alarm.customalarm.CustomAlarmFragment"
+        android:label="fragment_custom_alarm"
+        tools:layout="@layout/fragment_custom_alarm" />
+</navigation>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Calender App</string>
+    <string name="enter_here">Enter Here</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember Me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_in">Log in</string>
+    <string name="don_t_have_an_account">Don\'t Have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="expire_date">Expire Date</string>
+    <string name="cvc">Cvc</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_holder">Card Holder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorumipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \n\nIt has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. \n\nIt was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. \n\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</string>
+    <string name="time_maker"><u>Time Maker</u></string>
+    <string name="high_holy_days"><u>High Holy Days</u></string>
+    <string name="memorial_days"><u>Memorial Days</u></string>
+    <string name="constellation_label"><u>Constellation</u></string>
+    <string name="biblical_history_label"><u>Biblical History</u></string>
+    <string name="lorum_ipsum">This is a set aside moment of time allotted for the removal of the sins of the entire nation of Israel.</string>
+</resources>

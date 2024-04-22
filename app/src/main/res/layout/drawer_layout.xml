@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sign_in_bg">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="@dimen/_26sdp"
+        android:src="@drawable/sign_in_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/city_of_adam_ic"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:src="@drawable/clock_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/city_of_adam_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="City of Adam"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/city_of_adam_ic"
+        app:layout_constraintStart_toEndOf="@+id/city_of_adam_ic"
+        app:layout_constraintTop_toTopOf="@+id/city_of_adam_ic" />
+
+    <ImageView
+        android:id="@+id/tree_of_life_ic"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:src="@drawable/clock_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city_of_adam_ic" />
+
+    <TextView
+        android:id="@+id/tree_of_life_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Tree of Life"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/tree_of_life_ic"
+        app:layout_constraintStart_toEndOf="@+id/tree_of_life_ic"
+        app:layout_constraintTop_toTopOf="@+id/tree_of_life_ic" />
+
+
+    <ImageView
+        android:id="@+id/calendar_ic"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:src="@drawable/clock_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tree_of_life_ic" />
+
+    <TextView
+        android:id="@+id/calendar_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Calendar"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/calendar_ic"
+        app:layout_constraintStart_toEndOf="@+id/calendar_ic"
+        app:layout_constraintTop_toTopOf="@+id/calendar_ic" />
+
+
+
+    <ImageView
+        android:id="@+id/cycle_of_year_ic"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:src="@drawable/clock_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendar_ic" />
+
+    <TextView
+        android:id="@+id/cycle_of_year_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Cycle of the Year"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/cycle_of_year_ic"
+        app:layout_constraintStart_toEndOf="@+id/cycle_of_year_ic"
+        app:layout_constraintTop_toTopOf="@+id/cycle_of_year_ic" />
+
+
+
+    <ImageView
+        android:id="@+id/lots_of_david_ic"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:src="@drawable/clock_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cycle_of_year_ic" />
+
+    <TextView
+        android:id="@+id/lots_of_david_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="24 Lots of David"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/lots_of_david_ic"
+        app:layout_constraintStart_toEndOf="@+id/lots_of_david_ic"
+        app:layout_constraintTop_toTopOf="@+id/lots_of_david_ic" />
+
+
+
+    <ImageView
+        android:id="@+id/enoch_parts_ic"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:src="@drawable/clock_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lots_of_david_ic" />
+
+    <TextView
+        android:id="@+id/enoch_parts_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Enoch Parts"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/enoch_parts_ic"
+        app:layout_constraintStart_toEndOf="@+id/enoch_parts_ic"
+        app:layout_constraintTop_toTopOf="@+id/enoch_parts_ic" />
+
+    <TextView
+        android:id="@+id/solar_parts_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="18 Solar Parts"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/enoch_parts_tv"
+        app:layout_constraintTop_toBottomOf="@+id/enoch_parts_tv" />
+
+    <TextView
+        android:id="@+id/moon_parts_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="15 Moon Parts"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/solar_parts_tv"
+        app:layout_constraintTop_toBottomOf="@+id/solar_parts_tv" />
+
+    <ImageView
+        android:id="@+id/knowledge_ic"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:src="@drawable/clock_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/moon_parts_tv" />
+
+    <TextView
+        android:id="@+id/knowledge_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Knowledge"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/knowledge_ic"
+        app:layout_constraintStart_toEndOf="@+id/knowledge_ic"
+        app:layout_constraintTop_toTopOf="@+id/knowledge_ic" />
+
+    <TextView
+        android:id="@+id/high_holy_days_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="High Holy Days"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/knowledge_tv"
+        app:layout_constraintTop_toBottomOf="@+id/knowledge_tv" />
+
+    <TextView
+        android:id="@+id/sun_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Sun"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/high_holy_days_tv"
+        app:layout_constraintTop_toBottomOf="@+id/high_holy_days_tv" />
+
+    <TextView
+        android:id="@+id/wind_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Wind"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/sun_tv"
+        app:layout_constraintTop_toBottomOf="@+id/sun_tv" />
+
+    <TextView
+        android:id="@+id/moon_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Moon"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/wind_tv"
+        app:layout_constraintTop_toBottomOf="@+id/wind_tv" />
+
+    <TextView
+        android:id="@+id/constellations_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Constellations"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/moon_tv"
+        app:layout_constraintTop_toBottomOf="@+id/moon_tv" />
+
+    <TextView
+        android:id="@+id/course_of_david_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Course of David"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/constellations_tv"
+        app:layout_constraintTop_toBottomOf="@+id/constellations_tv" />
+
+
+    <ImageView
+        android:id="@+id/sponsors_ic"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:src="@drawable/clock_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course_of_david_tv" />
+
+    <TextView
+        android:id="@+id/sponsors_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Sponsors"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/sponsors_ic"
+        app:layout_constraintStart_toEndOf="@+id/sponsors_ic"
+        app:layout_constraintTop_toTopOf="@+id/sponsors_ic" />
+
+    <ImageView
+        android:id="@+id/alarm_ic"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:src="@drawable/clock_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sponsors_ic" />
+
+    <TextView
+        android:id="@+id/alarm_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Alarm"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/alarm_ic"
+        app:layout_constraintStart_toEndOf="@+id/alarm_ic"
+        app:layout_constraintTop_toTopOf="@+id/alarm_ic" />
+
+    <ImageView
+        android:id="@+id/settings_ic"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:src="@drawable/clock_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alarm_ic" />
+
+    <TextView
+        android:id="@+id/settings_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Settings"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_ic"
+        app:layout_constraintStart_toEndOf="@+id/settings_ic"
+        app:layout_constraintTop_toTopOf="@+id/settings_ic" />
+
+
+    <ImageView
+        android:id="@+id/logout_ic"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_17sdp"
+        android:src="@drawable/clock_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/logout_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/copperplate_bold"
+        android:text="Logout"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/logout_ic"
+        app:layout_constraintStart_toEndOf="@+id/logout_ic"
+        app:layout_constraintTop_toTopOf="@+id/logout_ic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
